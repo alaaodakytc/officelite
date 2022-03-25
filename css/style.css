@@ -1,0 +1,349 @@
+*p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: kumbhsans-bold;
+
+  src: url(../fonts/KumbhSans-Bold.ttf);
+}
+@font-face {
+  font-family: KumbhSans-Regular;
+  src: url(../fonts/KumbhSans-Regular.ttf);
+}
+.logo {
+  margin: 100px 100px 100px 100px;
+  padding-top: 20px;
+  width: 90%;
+}
+/* ////////////////////////////(   Navigation Helped users   )  ///////////////// */
+.navigation {
+  font-family: KumbhSans-Bold;
+  display: flex;
+  justify-content: end;
+  margin-right: 200px;
+  color: #3d60e9;
+}
+.nav-home {
+  padding-right: 8px;
+}
+.nav-home:hover {
+  color: #2246e4;
+}
+.nav-help {
+  margin-right: 8px;
+}
+.nav-help:hover {
+  color: #2246e4;
+}
+.nav-image {
+  margin-right: 8px;
+}
+.nav-image:hover {
+  color: #2246e4;
+}
+.nav-category {
+  margin-right: 8px;
+}
+.nav-category:hover {
+  color: #2246e4;
+}
+/* ////////////////////(        Simple Solution Para    )//////////////////// */
+.head-text {
+  line-height: 71px;
+  margin-left: 100px;
+  font-family: KumbhSans-Bold;
+  font-size: 54px;
+  color: #333950;
+}
+.body-text {
+  font-family: KumbhSans-bold;
+  color: #747b95;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 100px;
+}
+/* ////////////////////////////(     Explanation Chart    )////////////////////// */
+.img-right {
+  margin-right: 100px;
+}
+/* /////////////////////////////(       Start Butten      )/////////////////////// */
+.start-butten {
+  font-family: kumbhSans-Bold;
+  border-radius: 90px;
+  border: none;
+  font-size: 16px;
+  padding: 13px;
+  margin-left: 100px;
+  background-color: #5175ff;
+  color: aliceblue;
+}
+.start-butten:hover {
+  color: white;
+  background-color: #333950;
+}
+/* //////////////////////////////(      Boxes      )///////////////////////// */
+/* /////////////////////////////(      basic Box     )////////////////// */
+.basicBox {
+  background-color: rgb(252, 249, 249);
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+  text-align: center;
+}
+.basicBox:hover {
+  color: white;
+  background-color: #a9b2d3;
+}
+.basic {
+  font-family: KumbhSans-Bold;
+  padding-top: 40px;
+  font-family: KumbhSans-Bold;
+  font-size: 20px;
+  color: #333950;
+}
+.freeBasic {
+  font-family: KumbhSans-Bold;
+  padding-top: 10px;
+  font-size: 50px;
+  color: #333950;
+  line-height: 1px;
+}
+.upBasic {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #333950;
+  margin-bottom: 80px;
+}
+.Basic {
+  font-family: KumbhSans-Regular;
+  font-size: 20px;
+  color: #333950;
+  line-height: 30px;
+}
+
+.buttenBasic {
+  font-family: kumbhSans-Bold;
+  border-radius: 60px;
+  border: none;
+  font-size: 16px;
+  padding: 13px;
+  justify-content: left;
+  background-color: #c2cfff;
+  color: #5175ff;
+}
+/* ///////////////////////////(          The Price box             )//////////////// */
+
+.proBox {
+  background-color: #5175ff;
+  border-radius: 20px;
+  width: 450px;
+  height: 550px;
+  text-align: center;
+}
+.proBox:hover {
+  color: white;
+  background-color: #333950;
+}
+.pro {
+  font-family: KumbhSans-Bold;
+  padding-top: 40px;
+  font-family: KumbhSans-Bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+.price {
+  font-family: KumbhSans-Bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+.per-user {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 80px;
+}
+.user {
+  font-family: KumbhSans-Regular;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.buttenpro {
+  font-family: kumbhSans-Bold;
+  border-radius: 60px;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  justify-content: left;
+  background-color: #ffffff;
+  color: #5175ff;
+}
+/* /////////////////////////////(           Ultimate box              )////////////////////////////////////////////////// */
+.box-Ultimate {
+  background-color: rgb(252, 249, 249);
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+  text-align: center;
+}
+.box-Ultimate:hover {
+  color: white;
+  background-color: #a9b2d3;
+}
+.titleUltimate {
+  font-family: KumbhSans-Bold;
+  padding-top: 40px;
+  font-family: KumbhSans-Bold;
+  font-size: 20px;
+  color: #333950;
+}
+.cost-Ultimate {
+  font-family: KumbhSans-Bold;
+  font-size: 40px;
+  color: #333950;
+}
+.billed-Ultimate {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #333950;
+  margin-bottom: 80px;
+}
+.manage {
+  font-family: KumbhSans-Regular;
+  font-size: 20px;
+  color: #333950;
+  line-height: 30px;
+}
+.butten-Ultimate {
+  font-family: kumbhSans-Bold;
+  border-radius: 60px;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  justify-content: left;
+  background-color: #c2cfff;
+  color: #5175ff;
+}
+/* ////////////////////////////////(  Inclouding the first Three Boxes    )///////////////            ) */
+.container-box {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+/* ///////////////////(   The first section in page {heading,logo,chart,button}    )//////// */
+.contain {
+  display: flex;
+  font: 300px;
+}
+/*/////////////////////////////(    Time box     )/////////////////////////////// */
+.date-coming {
+  margin-left: 105px;
+  font-family: KumbhSans-Bold;
+  margin-bottom: -60px;
+}
+.couse-date {
+  color: #333950;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.date-comming {
+  color: #5175ff;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+/* //////////////////////////(     four boxes about date & time        ) ////////                ) */
+/* **************************(    Inclouding all boxes and button of time )****************** */
+.box-button {
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.box-button {
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+/* (                                 Days                          ) */
+.days-box {
+  border-radius: 30px;
+  background-color: #333950;
+  margin-left: 90px;
+  width: 110px;
+  height: 150px;
+  text-align: center;
+  font-family: kumbhSans-Bold;
+  font-size: 20px;
+}
+/* (                                      Hours                                      ) */
+.hours-box {
+  border-radius: 30px;
+  background-color: #333950;
+  margin-left: 50px;
+  width: 110px;
+  height: 150px;
+  text-align: center;
+  font-family: kumbhSans-Bold;
+  font-size: 20px;
+}
+/* (                                            Min                               ) */
+.min-box {
+  border-radius: 30px;
+  background-color: #333950;
+  margin-left: 50px;
+  width: 110px;
+  height: 150px;
+  text-align: center;
+  font-family: kumbhSans-Bold;
+  font-size: 20px;
+}
+/* (                                                 Second                        ) */
+.sic-box {
+  border-radius: 30px;
+  background-color: #333950;
+  margin-left: 50px;
+  width: 110px;
+  height: 150px;
+  text-align: center;
+  font-family: kumbhSans-Bold;
+  font-size: 20px;
+}
+/* ///////////////////////(       Formationg of time box          )////////// */
+.nomber-time {
+  color: white;
+}
+.Type-nom {
+  color: #999ca8;
+}
+.time-boxes {
+  display: flex;
+
+  text-align: center;
+}
+.time-boxes {
+  justify-content: flex-start;
+}
+
+/* /////////////////////(           Final button            ) //////////////////// */
+.final-button {
+  font-family: kumbhSans-Bold;
+  border-radius: 90px;
+  border: none;
+  font-size: 16px;
+  background-color: #c2cfff;
+  color: #5175ff;
+  margin-right: 90px;
+  width: 130px;
+  height: 50px;
+  margin-top: 60px;
+  text-align: center;
+}
+.final-button:hover {
+  color: white;
+  background-color: #333950;
+}
